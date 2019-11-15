@@ -14,11 +14,9 @@ end
 
 def long_planeteer_calls(arrayOfWords)
   arrayOfWords.any?{ |word| word.length > 4 }
-  
 end
 
 def find_the_cheese (arrayOfString)
   cheese_types = ["cheddar", "gouda", "camembert"]
   arrayOfString.detect{ |i| cheese_types.include?(i) }
-  
 end
